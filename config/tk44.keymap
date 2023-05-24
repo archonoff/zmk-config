@@ -7,7 +7,6 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/keys.h>
 
 #define DEF 0
 #define LWR 1
@@ -37,7 +36,7 @@
 &kp TAB     &kp ESC  &kp Q  &kp W         &kp E      &kp R    &kp T        &kp Y      &kp U          &kp I    &kp O     &kp P       &kp LBKT  &kp RBKT
           &kp LCTRL  &kp A  &kp S         &kp D      &kp F    &kp G        &kp H      &kp J          &kp K    &kp L  &kp SEMI        &kp SQT
          &kp LSHIFT  &kp Z  &kp X         &kp C      &kp V    &kp B        &kp N      &kp M      &kp COMMA  &kp DOT  &kp FSLH  &kp BACKSLASH
-                                   &kt LEFT_ALT  &kp SPACE  &lt 1 0    &lt 2 ESC  &kt ENTER  &kp BACKSPACE
+                                   &kp LEFT_ALT  &kp SPACE  &lt 1 0    &lt 2 ESC  &kp ENTER  &kp BACKSPACE
             >;
         };
 
