@@ -93,10 +93,10 @@
             //                          |     |     | ADJ |   | ADJ |     |     |
 
             bindings = <
-&trans  &kp KP_NUM  &kp CAPSLOCK  &kp LEFT_ARROW  &kp UP_ARROW       &kp DOWN  &kp RIGHT_ARROW           &none         &none         &none     &kp MINUS     &kp EQUAL         &none  &none
-            &trans  &kp NUMBER_1    &kp NUMBER_2  &kp NUMBER_3   &kp NUMBER_4     &kp NUMBER_5    &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0         &none
-            &trans         &none     &legacy_cut  &legacy_copy  &legacy_paste            &none           &none         &none         &none         &none         &none  &kp LEFT_GUI
-                                                        &trans         &trans           &trans          &trans        &trans       &kp DEL
+&trans  &kp KP_NUM  &kp CAPSLOCK  &kp LEFT_ARROW  &kp UP_ARROW       &kp DOWN  &kp RIGHT_ARROW             &none           &none         &none        &kp MINUS     &kp EQUAL         &none  &none
+            &trans  &kp NUMBER_1    &kp NUMBER_2  &kp NUMBER_3   &kp NUMBER_4     &kp NUMBER_5      &kp NUMBER_6    &kp NUMBER_7  &kp NUMBER_8     &kp NUMBER_9  &kp NUMBER_0         &none
+            &trans         &none     &legacy_cut  &legacy_copy  &legacy_paste            &none    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW         &none  &kp LEFT_GUI
+                                                        &trans         &trans           &trans            &trans          &trans       &kp DEL
             >;
         };
 
