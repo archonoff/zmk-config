@@ -27,19 +27,28 @@
             compatible = "zmk,behavior-macro";
             label = "LEGACY_CUT";
             #binding-cells = <0>;
-            bindings = <&kp LEFT_SHIFT &kp DELETE>;
+            bindings =
+                <&macro_press>,
+                <&kp LEFT_SHIFT &kp DELETE>,
+                <&macro_release>;
         };
         legacy_paste: legacy_paste {
             compatible = "zmk,behavior-macro";
             label = "LEGACY_PASTE";
             #binding-cells = <0>;
-            bindings = <&kp LEFT_SHIFT &kp INS>;
+            bindings =
+                <&macro_press>,
+                <&kp LEFT_SHIFT &kp INS>,
+                <&macro_release>;
         };
         legacy_copy: legacy_copy {
             compatible = "zmk,behavior-macro";
             label = "LEGACY_COPY";
             #binding-cells = <0>;
-            bindings = <&kp LCTRL &kp INS>;
+            bindings =
+                <&macro_release>,
+                <&kp LCTRL &kp INS>,
+                <&macro_press>;
         };
     };
 
