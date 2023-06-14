@@ -78,10 +78,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans  &kp GRAVE  &kp F1   &kp F2   &kp F3   &kp F4  &kp LSHIFT        &kp INSERT        &kp HOME    &kp PAGE_UP   &kp UNDERSCORE  &kp PLUS  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
-           &trans  &kp F5   &kp F6   &kp F7   &kp F8   &kp LCTRL        &kp DELETE         &kp END  &kp PAGE_DOWN            &none     &none                 &none
-           &trans  &kp F9  &kp F10  &kp F11  &kp F12       &none    &kp LEFT_ARROW  &kp DOWN_ARROW   &kp UP_ARROW  &kp RIGHT_ARROW     &none                 &none
-                                     &trans    &mo 3      &trans            &trans          &trans        &kp DEL
+&trans  &kp GRAVE  &kp F1   &kp F2   &kp F3   &kp F4       &kp LSHIFT        &kp INSERT        &kp HOME    &kp PAGE_UP   &kp UNDERSCORE  &kp PLUS  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
+           &trans  &kp F5   &kp F6   &kp F7   &kp F8        &kp LCTRL        &kp DELETE         &kp END  &kp PAGE_DOWN            &none     &none                 &none
+           &trans  &kp F9  &kp F10  &kp F11  &kp F12  &kp PRINTSCREEN    &kp LEFT_ARROW  &kp DOWN_ARROW   &kp UP_ARROW  &kp RIGHT_ARROW     &none                 &none
+                                     &trans    &mo 3           &trans            &trans          &trans        &kp DEL
             >;
         };
 
